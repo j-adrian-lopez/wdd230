@@ -1,0 +1,26 @@
+@media only screen and (max-width: 700px){
+
+    main, div{
+        display: block;
+        align-content: center;
+    }
+
+    img{
+        margin: 0;
+        padding: 0;
+        max-width: 300px;
+    }
+
+    h3{
+        white-space: normal;
+    }
+
+    body{
+        padding: 10px;
+    }
+
+    .target{
+        margin-top: 50px;
+    }
+    
+}
