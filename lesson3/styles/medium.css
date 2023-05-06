@@ -1,0 +1,11 @@
+@media (min-width: 37.5em) {
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    nav a{
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+}
