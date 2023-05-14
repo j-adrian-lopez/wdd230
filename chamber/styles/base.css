@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
+
+body{
+    background-color: #b6d8d7;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header, footer, nav, main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #0B132B;
+    color: #ffffff;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Comme', Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Comme', Montserrat, sans-serif;
+}
+
+h3, p, ul li, time{
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+p, ul li{
+    font-size: 1em;
+}
+
+ul{
+    margin: 1em;
+    padding: 0;
+}
+ul li{
+    text-align: justify;
+}
+
+nav {
+	background-color:  #1C2541;
+	text-align: center;
+	box-shadow: 0 0 30px #333;
+	display: flex;
+	flex-direction: column;
+    color: #ffffff;
+}
+
+nav div{
+    flex: 1 1 auto;
+    border: 1px solid #ffffff;
+}
+
+nav a{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 0.9rem;
+    border: 1px solid #ffffff;
+    padding: 1em;
+}
+
+nav a:hover{
+    background-color: #B6D8D7;
+    color:#0B132B;
+}
+
+footer{
+    flex: auto;
+    align-content: space-between;
+    font-family: Comme, Montserrat, sans-serif;
+}
+
+.logo{
+    background-color: #1C2541;
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    height: 5rem;
+    margin-bottom: 15px;
+}
+
+.sm{
+    border-radius: 50%;
+    width: 2em;
+    margin: 0;
+    flex-direction: column;
+}
+
+.buttons{
+    display: block;
+    position: absolute;
+    top: 20px;
+	right: 15px;
+	width: fit-content;
+    border: none;
+}
+
+time{
+    display: block;
+    text-align: center;
+    font-size: 0.9em;
+    border: #B6D8D7 2px solid;
+    padding: 0.4em;
+    margin: 1em;
+    background-color: #3A506B;
+    border-radius: 5px;
+}
+
+.head_logo{
+    width: 5em;
+    margin-top: 10px;;
+}
+
+.city, .chamber{
+    margin:0;
+}
+
+.foot_logo{
+    width: 3em;
+    padding: 20px 20px 0 20px;
+}
+
+main div{
+    height: 10em;
+    border: solid 1px #ffffff;
+}
+
+.spots{
+    height: 20em;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    padding: 10px;
+    font-family: Comme, Helvetica, sans-serif;
+}
+
+
+.spot3{
+    display: none;
+}
+
+#hamburger {
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 15px;
+	width: fit-content;
+	font-size: 1.3em;
+	padding: .2em .4em;
+	color: black;
+}
+
+.navigation {
+    display: flex;
+	flex-direction: column;
+	list-style-type: none;
+    background-color:  #3A506B;
+	text-align: center;
+	padding: 0;
+    color: #ffffff;
+    margin: 0;
+}
+
+.navigation li {
+	display: none;
+    background-color: #1C2541;
+}
+
+.navigation li a:hover {
+    background-color: #B6D8D7;
+    color:#0B132B;
+}
+
+.navigation.responsive li {
+	display: block;
+	width: 100%;
+}
+.navigation.responsive li a {
+	display: block;
+}
+
+
+p{
+    margin: 1em;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: #B6D8D7;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: greenyellow;
+}

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 37.5em) {
+    .spots{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .spot{
+        height: 20em;
+    }
+
+}
