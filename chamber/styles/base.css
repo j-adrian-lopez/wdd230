@@ -65,7 +65,6 @@ nav div{
 nav a{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 	color: #fff;
-	text-align: center;
 	text-decoration: none;
 	font-size: 0.9rem;
     border: 1px solid #ffffff;
@@ -167,7 +166,6 @@ main div{
 	flex-direction: column;
 	list-style-type: none;
     background-color:  #3A506B;
-	text-align: center;
 	padding: 0;
     color: #ffffff;
     margin: 0;
@@ -176,6 +174,7 @@ main div{
 .navigation li {
 	display: none;
     background-color: #1C2541;
+    flex: 1 1 100%;
 }
 
 .navigation li a:hover {
@@ -189,6 +188,7 @@ main div{
 }
 .navigation.responsive li a {
 	display: block;
+    align-content: center;
 }
 
 
