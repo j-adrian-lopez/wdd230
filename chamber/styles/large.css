@@ -5,7 +5,7 @@
 
     .buttons{
         top: 50px;
-        left: 23em;
+        left: 20%;
     }
 
     .sm{
@@ -87,6 +87,12 @@
     }
     .spot3{
         display: block;
+    }
+
+    .headcont{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
     }
 
 }
