@@ -193,6 +193,7 @@ main div{
 .navigation.responsive li a {
 	display: block;
     align-content: center;
+    text-align: center;
 }
 
 

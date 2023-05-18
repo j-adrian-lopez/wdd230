@@ -14,7 +14,6 @@
     }
 
     .navigation{
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
@@ -28,14 +27,16 @@
 
     .navigation li{
         display: flex;
-        justify-content: space-between;
+        align-items: center;
     }
 
     .navigation li a{
         display: flex;
+        flex: 1 1 100%;
         justify-content: center;
-        width: 100%;
     }
+    
+
     header{
         margin-bottom: 10px;
     }
