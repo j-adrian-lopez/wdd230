@@ -171,6 +171,10 @@ main div{
     margin: 0;
 }
 
+.navigation ul {
+	display: block;
+}
+
 .navigation li {
 	display: none;
     background-color: #1C2541;
