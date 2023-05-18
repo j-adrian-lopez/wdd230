@@ -23,18 +23,10 @@
     .navigation ul{
         display: flex;
         width: 100%;
-        justify-content: space-between;
-    }
-
-    .navigation li{
-        display: flex;
-        justify-content: space-between;
     }
 
     .navigation li a{
-        display: flex;
-        justify-content: center;
-        width: 100%;
+        justify-content: space-around;
     }
     header{
         margin-bottom: 10px;
