@@ -101,7 +101,7 @@ footer{
 .buttons{
     display: block;
     position: absolute;
-    top: 20px;
+    top: 65px;
 	right: 15px;
 	width: fit-content;
     border: none;
@@ -209,4 +209,20 @@ footer a:link{
 footer a:visited{
     text-decoration: none;
     color: greenyellow;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+    padding: 0.05em;
+    background-color: rgba(198, 194, 209, 0.9);
+    color: black;
+    justify-content: center;
+    font-size: 13px;
+}
+
+button.inactive{
+    float: right;
+    background-color: transparent;
+    border: none;
 }
