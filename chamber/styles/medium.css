@@ -4,8 +4,36 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .spot{
-        height: 20em;
+    main div{
+        margin: 0.5em;
+        box-shadow: 0 0 10px #0B132B;
     }
 
+    .headcont{
+        position: relative;
+    }
+
+    .spots div{
+        grid-row: 1/3;
+        padding: 10px;
+    }
+
+    .join{
+        display: block;
+        padding: 20px;;
+    }
+
+    .join p{
+        margin-top: 20px;
+    }
+
+    #joinC{
+        font-size: 1.5em;
+        padding: 0.3em;
+        width: 80%;
+    }
+
+    .foot_logo{
+        width: 5em;
+    }
 }

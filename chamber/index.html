@@ -14,21 +14,22 @@
 </head>
 <body>
     <header>
-        <div class="banner">
+        <div id="banner">
             <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-            <button class="inactive">✖</button>
+            <button id="inactive">✖</button>
         </div>
         <div class="headcont">
             <img src="images/chamberlogo.png" alt="San Lorenzo Chamber of Commerce Logo" width="200" class="head_logo">
             <h2 class="city">San Lorenzo</h2>
             <h3 class="chamber">Chamber of Commerce</h3>
+            <div class="buttons">
+                <button id="hamburger">&#9776;</button>
+                <img src="images/facebook.png" alt="Facebook Logo" width="50" class="sm">
+                <img src="images/twitter.png" alt="Twitter Logo" width="50" class="sm">          
+            </div>
         </div>
     <time></time>
-    <div class="buttons">
-        <button id="hamburger">&#9776;</button>
-        <img src="images/facebook.png" alt="Facebook Logo" width="50" class="sm">
-        <img src="images/twitter.png" alt="Twitter Logo" width="50" class="sm">          
-    </div>
+
         <nav class="navigation">
           <ul>
                 <li><a href="#">Join</a></li>
@@ -40,16 +41,58 @@
  </header>
 
     <main>
-        <div class="hero"><p>Hero with site name and call to action</p></div>
-        <div class="event"><p>Event</p></div>
-        <div class="weather"><p>Weather</p></div>
-        <div class="news"><p>News Release</p></div>
-        <div class="spots">
-            <div class="spot">Spotlight 1</div>
-            <div class="spot">Spotlight 2</div>
-            <div class="spot3">Spotlight 3</div>
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Catedral de San Lorenzo">
+            <h2 class="welcome">Welcome to San Lorenzo</h2>
+            <button id="joinB">Join the Chamber</button>
         </div>
-        <div class="join"><p>Join</p></div>
+        <div class="event">
+            <h3>Inauguration</h3>
+            <h4>New Expo Hall</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, debitis aliquam. Magnam magni aliquid soluta,
+            aut mollitia in assumenda perferendis quod eos et nihil minus pariatur maiores temporibus iusto ab?</p>
+        </div>
+        <div class="weather">
+            <h3>Weather</h3>
+            <img src="images/weather.png" width="100">
+            <p>Cloudy</p>
+            <p>25°C</p>
+        </div>
+        <div class="news">
+            <h3>News Release</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat perspiciatis, nostrum a laudantium vel laborum architecto cumque eligendi adipisci aliquam.
+            Suscipit soluta fugit quisquam laudantium reprehenderit nam excepturi aut rem.</p></div>
+        <div class="spots">
+            <div>
+                <h4>Company A</h4>
+                <img src="/wdd230/chamber/images/A.png" width="100">
+                <p>"Insert slogan here"</p>
+                <hr>
+                <p class="little">email@email.com</p>
+                <p class="little">+999 - 999 - 999</p>
+            </div>
+            <div>
+                <h4>Company B</h4>
+                <img src="/wdd230/chamber/images/B.png" width="100">
+                <p>"Insert slogan here"</p>
+                <hr>
+                <p class="little">email@email.com</p>
+                <p class="little">+999 - 999 - 999</p>
+            </div>
+            <div>
+                <h4>Company C</h4>
+                <img src="/wdd230/chamber/images/C.png" width="100">
+                <p>"Insert slogan here"</p>
+                <hr>
+                <p class="little">email@email.com</p>
+                <p class="little">+999 - 999 - 999</p>
+            </div>
+        </div>
+        <div class="join">
+            <button id="joinC">Join Us!</button>
+            <p>Discover how to join the chamber
+            and benefit your organization!</p>
+        </div>
     </main>
 
     <footer>
@@ -66,5 +109,6 @@
     <script src="scripts/footer.js" rel="script"></script>
     <script src="scripts/time.js" rel="script"></script>
     <script src="scripts/button.js" rel="script"></script>
+    <script src="scripts/banner.js" rel="script"></script>
 </body>
 </html>

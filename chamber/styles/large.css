@@ -5,7 +5,7 @@
 
     .buttons{
         top: 50px;
-        left: 20%;
+        left: 0;
     }
 
     .sm{
@@ -47,12 +47,12 @@
     }
 
     main div{
-        height: 100%;
         margin: 0.2em;
+
     }
 
     footer{
-        margin-top: 10px;;
+        margin-top: 10px;
     }
 
     .event{
@@ -85,14 +85,15 @@
         flex-direction: column;
         grid-row: 1/4;
         grid-column: 4/5;
+        justify-content: space-around;
+        padding: 0.2em;
     }
-    .spot3{
+    .spots div:nth-child(3){
         display: block;
     }
 
     .headcont{
-        position: relative;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
     }
 
