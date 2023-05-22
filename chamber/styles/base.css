@@ -218,7 +218,7 @@ footer a:visited{
 #banner{
     position: relative;
     display: flex;
-    padding: 0.05em;
+    padding: 0.5em;
     background-color: rgba(198, 194, 209, 0.9);
     color: black;
     justify-content: center;
