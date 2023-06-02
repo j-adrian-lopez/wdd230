@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
 
-main{
+body{
     text-align: center;
+    margin: 0 auto;
+}
+main{
     display: flex;
     flex-direction: column;
     max-width: fit-content;
@@ -12,10 +15,10 @@ h1{
     font-family: Comme, Montserrat, sans-serif;
     font-size: 2em;
     color: white;
+    padding: 1em;
 }
 
 picture{
-    max-width: 300px;
     margin: 0 auto;
 }
 
