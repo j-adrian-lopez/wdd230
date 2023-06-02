@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background-color: rgb(94, 139, 100);
+}
+
+h1{
+    font-family: Comme, Montserrat, sans-serif;
+    font-size: 2em;
+    color: white;
+}
+
+picture{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    border: 1px solid white;
+    padding: 0.2em;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
