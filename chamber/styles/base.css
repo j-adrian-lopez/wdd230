@@ -276,3 +276,27 @@ button#inactive{
 .little{
     font-size: 0.7em;
 }
+
+.intro{
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+
+section img.sites{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 800px;
+}
+
+div.days{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    margin: 1em;
+}
+
+#discover{
+    display: block;
+}
