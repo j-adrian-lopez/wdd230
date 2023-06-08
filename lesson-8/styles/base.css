@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
+
+body{
+    font-family: Comme, sans-serif;
+}
+
+table {
+    margin: 30px auto;
+    border: solid 1px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+caption {
+     caption-side: bottom;
+     font-size: 0.8em;
+     padding: 10px
+}
+
+thead th{
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+
+thead th:nth-child(n+2){
+    background-color: saddlebrown;
+    font-size: 1.5em;
+}
+
+th, td{
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.5)
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.2);
+}
