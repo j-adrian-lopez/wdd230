@@ -97,4 +97,27 @@
         margin: 0 auto;
     }
 
+    #join, #thanks{
+        display: block;
+    }
+    form{
+        margin: 0 auto;
+    }
+    fieldset.membership{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 1em;
+
+    }
+
+    fieldset div.level-info{
+        display: block;
+        margin: 0;
+        border: none;
+    }
+}
+
+#thanks div{
+    font-size: 2em;
+    padding: 1em;
 }

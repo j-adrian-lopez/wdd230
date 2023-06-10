@@ -7,7 +7,7 @@ body{
     text-align: center;
 }
 
-header, footer, nav, main{
+header, footer, nav, form, main{
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -300,3 +300,117 @@ div.days{
 #discover{
     display: block;
 }
+
+form{
+    width: 80%;
+    font-family: Comme, sans-serif;
+    margin: 0 5%;
+    max-width: 1100px;
+}
+
+form fieldset{
+    display: block;
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+    font-size: 1em;
+    border: 2px solid #3A506B;
+    border-radius: 10px;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+form legend{
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+fieldset div.levels{
+    border: none;
+}
+
+fieldset div.level-info{
+    display: none;
+}
+
+form label.information, form label.membership, fieldset label.additional{
+    display: block;
+    padding: 0.5em;
+}
+
+fieldset label.information input{
+    display: block;
+    min-height: 44px;
+    width: 100%;
+    max-width: 30em;
+    border-radius: 5px;
+}
+
+form label.information input:required{
+    border-left: red solid 6px;
+}
+
+form label.information input:required:valid{
+    border-left: green solid 6px;
+}
+
+fieldset label.additional{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+}
+
+fieldset textarea{
+    min-height: 5em;
+}
+
+form input.joinBtn{
+    border: none;
+    background-color: #0B132B;
+    color: white;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    margin: 0 0 2rem 2%;
+    max-width: 20rem;
+}
+
+form input.joinBtn:hover{
+    border: #0B132B;
+    background-color: #3A506B;
+}
+
+table {
+    margin: 5px auto;
+    border: solid 1px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    border-collapse: collapse;
+    max-width: 300px;
+    text-align: center;
+}
+
+caption {
+     caption-side: bottom;
+     font-size: 0.8em;
+     padding: 10px
+}
+
+thead th{
+    background-color: black;
+    color: white;
+    font-size: 1em;
+}
+
+thead th:nth-child(n+2){
+    background-color: #1C2541;
+    font-size: 0.7em;
+}
+
+th, td{
+    padding: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.5)
+}
+
+tbody tr:nth-child(even){
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
