@@ -38,7 +38,7 @@ prophets.forEach((prophet) => {
         ageAtDeath = Math.floor((Date.parse(prophet.death) - Date.parse(prophet.birthdate)) / 31556952000);
     } else {
         ageAtDeath = Math.floor((Date.parse(new Date()) - Date.parse(prophet.birthdate)) / 31556952000);
-    }
+    };
     
 
     h2.textContent = `${prophet.name} ${prophet.lastname}`;
