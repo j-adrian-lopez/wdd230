@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&family=Montserrat&display=swap');
+
+body {
+    background-color: lightblue;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+section {
+    font-family: Comme, Montserrat, sans-serif;
+    border: 1px solid rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.3);
+}
+
+footer{
+    font-size: 1.5em;
+    margin-top: 2em;
+}
