@@ -2,10 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="San Lorenzo Chamber of Commerce - Directory">
+    <title>Directory - San Lorenzo Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="../favicon.ico"> 
 </head>
 <body>
-    
+ <header>
+        <div id="banner">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            <button id="inactive">✖</button>
+        </div>
+        <div class="headcont">
+            <img src="images/chamberlogo.webp" alt="San Lorenzo Chamber of Commerce Logo" width="200" class="head_logo">
+            <h2 class="city">San Lorenzo</h2>
+            <h3 class="chamber">Chamber of Commerce</h3>
+            <div class="buttons">
+                <button id="hamburger">&#9776;</button>
+                <img src="images/facebook.png" alt="Facebook Logo" width="50" class="sm">
+                <img src="images/twitter.png" alt="Twitter Logo" width="50" class="sm">          
+            </div>
+        </div>
+    <time></time>
+
+        <nav class="navigation">
+          <ul>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+ </header>
+
+ <main>
+    <div class="cards"></div>
+ </main>
+
+ <footer>
+    <img src="images/chamberlogo.webp" alt="San Lorenzo Chamber of Commerce Logo" width="100" class="foot_logo">
+    <p class="address">Address: Loma casi Cerro 123</p>
+    <p class="phone">Phone: +595 981 123 456</p>
+    <p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 512" width="8"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M112 316.94v156.69l22.02 33.02c4.75 7.12 15.22 7.12 19.97 0L176 473.63V316.94c-10.39 1.92-21.06 3.06-32 3.06s-21.61-1.14-32-3.06zM144 0C64.47 0 0 64.47 0 144s64.47 144 144 144 144-64.47 144-144S223.53 0 144 0zm0 76c-37.5 0-68 30.5-68 68 0 6.62-5.38 12-12 12s-12-5.38-12-12c0-50.73 41.28-92 92-92 6.62 0 12 5.38 12 12s-5.38 12-12 12z"/></svg>
+    <a href="https://goo.gl/maps/Z2fahXBy3v9G7jiV7">Location Map</a></p>
+    <hr>
+    &copy;<span id="year"></span> .:|:. Adrian Lopez .:|:. Paraguay
+    <br>
+    <span id="lastUpdated"></span> 
+</footer>
+ <script src="scripts/footer.js" rel="script"></script>
+ <script src="scripts/time.js" rel="script"></script>
+ <script src="scripts/button.js" rel="script"></script>
+ <script src="scripts/banner.js" rel="script"></script>
 </body>
 </html>
