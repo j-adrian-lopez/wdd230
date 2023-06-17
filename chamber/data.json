@@ -1,0 +1,76 @@
+{
+    "business": [
+      {
+        "name": "Floreggs",
+        "address": "Calle 1 de Marzo",
+        "phone": "0991 992709",
+        "website": "www.floreggs.com.py",
+        "membership": "Gold",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "LIV Finanzas",
+        "address": "Calle Rosa Marengo 151",
+        "phone": "0982 445228",
+        "website": "www.liv.com.py",
+        "membership": "NP",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "PEPEA Academia",
+        "address": "Jacinto Paez 9901",
+        "phone": "0971 157538",
+        "website": "www.pepea.com.py",
+        "membership": "Silver",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "LR Dance",
+        "address": "Sargento Silva 225",
+        "phone": "0961 605822",
+        "website": "www.lracademy.com.py",
+        "membership": "Bronze",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "Comercial Rubencito",
+        "address": "Sargento Silva 812",
+        "phone": "021 574 279",
+        "website": "www.comercialrubencito.com.py",
+        "membership": "Gold",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "Dtail Auto Spa",
+        "address": "Calle Dr Emilio Cubas",
+        "phone": "0982 147051",
+        "website": "www.dtail.com.py",
+        "membership": "Gold",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "Glam Nails",
+        "address": "Saturio Rios 500",
+        "phone": "0983 068791",
+        "website": "www.glamnails.com.py",
+        "membership": "Bronze",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "CBC Muebles",
+        "address": "Manuel Ortiz 2291",
+        "phone": "021 583325",
+        "website": "www.cbcmuebles.com.py",
+        "membership": "Silver",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      },
+      {
+        "name": "Heladeria Tropical",
+        "address": "Bernardino Caballero 1105",
+        "phone": "021 583745",
+        "website": "www.tropical.com.py",
+        "membership": "Silver",
+        "logo": "https://media.ldscdn.org/images/media-library/gospel-art/church-history/joseph-smith-art-lds-37715-gallery.jpg"
+      }
+    ]
+}
