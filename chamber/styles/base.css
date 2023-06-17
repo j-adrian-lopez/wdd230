@@ -439,11 +439,41 @@ input:focus, textarea:focus{
 }
 
 .cards section h3{
-    margin: 0.5em;
+    margin: 0.3em;
 }
 
 .cards section p{
     font-size: 1em;
     padding: 0.5em;
 
+}
+
+div.list:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.list h3{
+    margin: 0;
+    padding: 0.5em;
+}
+
+.list p {
+    margin: 0;
+    padding: 0.5em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.list section:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.list img{
+    display: none;
+}
+
+div#businessBtn{
+    border: none;
+    box-shadow: none;
+    padding-bottom: 1em;
 }

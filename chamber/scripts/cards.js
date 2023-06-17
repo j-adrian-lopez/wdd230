@@ -3,7 +3,6 @@ const url = 'https://j-adrian-lopez.github.io/wdd230/chamber/data.json';
 async function getBusiness() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.business);
     businessCards(data.business);
 }
 
@@ -20,8 +19,8 @@ places.forEach((place) => {
     let clickable = document.createElement('a');
 
     busName.textContent = `${place.name}`;
-    address.textContent = `Address: ${place.address}`;
-    phone.textContent = `Phone: ${place.phone}`;
+    address.textContent = `${place.address}`;
+    phone.textContent = `${place.phone}`;
     website.textContent = `${place.website}`;
     
     clickable.setAttribute('href', place.website)
