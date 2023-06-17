@@ -3,65 +3,43 @@ const url = 'https://j-adrian-lopez.github.io/wdd230/chamber/data.json';
 async function getBusiness() {
     const response = await fetch(url);
     const data = await response.json();
-    console.table(data.business);}
-    /*displayProphets(data.prophets);
+    console.table(data.business);
+    businessCards(data.business);
 }
 
-const displayProphets = (prophets) => {
+const businessCards = (places) => {
     const cards = document.querySelector('div.cards');
 
-prophets.forEach((prophet) => {
+places.forEach((place) => {
     let card = document.createElement('section');
-    let h2 = document.createElement('h2');
-    let portrait = document.createElement('img');
-    let dateB = document.createElement('p');
-    let placeB = document.createElement('p');
-    let age = document.createElement('p');
+    let busName = document.createElement('h3');
+    let logo = document.createElement('img');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let website = document.createElement('p');
+    let clickable = document.createElement('a');
 
-    let ordinal;
-    switch (prophet.order) {
-        case 1:
-            ordinal = 'st';
-            break;
-        case 2:
-            ordinal = 'nd';
-            break;
-        case 3:
-            ordinal = 'rd';
-            break;
-        default:
-            ordinal = 'th';
-    };
-    let ageAtDeath;
-
-    if (prophet.death != null) {
-        ageAtDeath = Math.floor((Date.parse(prophet.death) - Date.parse(prophet.birthdate)) / 31556952000);
-    } else {
-        ageAtDeath = Math.floor((Date.parse(new Date()) - Date.parse(prophet.birthdate)) / 31556952000);
-    };
+    busName.textContent = `${place.name}`;
+    address.textContent = `Address: ${place.address}`;
+    phone.textContent = `Phone: ${place.phone}`;
+    website.textContent = `${place.website}`;
     
+    clickable.setAttribute('href', place.website)
+    logo.setAttribute('src', place.logo);
+    logo.setAttribute('alt', `${place.name} Logo`);
+    logo.setAttribute('loading', 'lazy');
+    logo.setAttribute('width', '160');
 
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    dateB.textContent = `Date of Birth: ${prophet.birthdate}`;
-    placeB.textContent = `Place of Birth: ${prophet.birthplace}`;
-    age.textContent = `Age: ${ageAtDeath}`;
-    
-
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}${ordinal} Latter-Day President`);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '340');
-    portrait.setAttribute('height', '440');
-
-    card.appendChild(h2);
-    card.appendChild(dateB);
-    card.appendChild(placeB);
-    card.appendChild(age);
-    card.appendChild(portrait);
+    clickable.appendChild(website);
+    card.appendChild(busName);
+    card.appendChild(logo);
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(clickable);
 
 
     cards.appendChild(card);
 });
 }
-*/
+
 getBusiness();
