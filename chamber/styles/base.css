@@ -484,9 +484,26 @@ div.weather{
     align-items: center;
 }
 
+div.weather img#weather-icon{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #999;
+}
+
 div.weather span#weather-description{
     text-transform: capitalize;
     font-family: Comme, Montserrat, sans-serif;
-    margin: 1em;
-    font-size: 1.2em;
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+div.weather span#temperature{
+    text-transform: capitalize;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0.3em;
+    font-size: 2em;
+    border: 1px solid #0B132B;
+    border-radius: 10px;
+    padding: 0.2em;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }

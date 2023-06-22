@@ -28,7 +28,7 @@ async function apiFetch() {
 function displayResults(weatherData) {
     const temperature = weatherData.main.temp;
     const speed = weatherData.wind.speed;
-    currentTemp.innerHTML = `<strong>${temperature.toFixed(0)}</strong>`;
+    currentTemp.innerHTML = `<strong>${temperature.toFixed(0)} °F</strong>`;
     windspeed.innerHTML = `<strong>${speed.toFixed(1)}</strong>`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
