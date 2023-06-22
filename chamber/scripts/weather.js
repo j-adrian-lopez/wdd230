@@ -37,7 +37,7 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
-    if (temperature < 50 || speed > 3.0) {
+    if (temperature < 50 && speed > 3.0) {
         wcf = (windChill(temperature, speed).toFixed(0));
     } else {
         wcf = 'N/A';
