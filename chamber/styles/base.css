@@ -477,3 +477,16 @@ div#businessBtn{
     box-shadow: none;
     padding-bottom: 1em;
 }
+
+div.weather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.weather span#weather-description{
+    text-transform: capitalize;
+    font-family: Comme, Montserrat, sans-serif;
+    margin: 1em;
+    font-size: 1.2em;
+}
