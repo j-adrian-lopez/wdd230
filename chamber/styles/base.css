@@ -146,8 +146,11 @@ main div{
     font-family: Comme, Helvetica, sans-serif;
 }
 
+.spots div{
+    background-color: rgba(255,255,255,0.7);
+}
 
-.spots div:nth-child(3){
+.spots div:nth-child(n+3){
     display: none;
 }
 
@@ -297,7 +300,7 @@ div.days{
     margin: 1em;
 }
 
-#discover, #card-container{
+#discover, #card-container, #contact{
     display: block;
 }
 
@@ -517,4 +520,13 @@ div.weather p.credit{
     font-size: 0.7em;
     margin-bottom: 0.5em;
     font-weight: 600;
+}
+
+#contact iframe {
+    width: 90%;
+    margin: 0.5em 0;
+}
+
+#contact div h4{
+    margin: 0;
 }

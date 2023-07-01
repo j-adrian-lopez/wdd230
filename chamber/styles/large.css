@@ -85,7 +85,7 @@
         flex-direction: column;
         grid-row: 1/4;
         grid-column: 4/5;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 0.2em;
     }
     .spots div:nth-child(3){
