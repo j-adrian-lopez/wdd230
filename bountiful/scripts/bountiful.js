@@ -4,6 +4,7 @@ const currentTemp = document.querySelector('#temperature');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#weather-description');
 const humidity = document.querySelector('#humidity');
+const ctaBtn = document.querySelector('#cta');
 
 // URL variable
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Carlsbad,us&units=imperial&appid=b28b987615baff94fe8d947cf902b8ae'
@@ -122,6 +123,10 @@ if (!window.localStorage.getItem("submitted")) {
 	window.localStorage.setItem("submitted", 0);
 }
 drinks.textContent = window.localStorage.getItem("submitted");
+
+ctaBtn.addEventListener('click', () => {
+	window.open('fresh.html');
+})
 
  apiFetch(url);
  forecastFetch(url2);

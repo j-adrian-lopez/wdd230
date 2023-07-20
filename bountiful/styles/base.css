@@ -152,7 +152,7 @@ h2.first, .second{
    font-size: calc(10px + 1vw);
  }
 
- button#hamburger:hover, button#cta:hover{
+ button#hamburger:hover, button#cta:hover, button#juiceBtn:hover{
    background-color: #4caf4f;
    color:rgba(0,0,0,0.8);
  }
