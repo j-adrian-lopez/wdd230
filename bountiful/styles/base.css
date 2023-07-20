@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Montserrat&display=swap');
+ 
+ /* ROOT */
+ h2{
+   font-family: Montserrat, Arial, sans-serif;
+ }
+ /* BODY */
+ body{
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+    background-color:  #FFC482;
+}
+ 
+ /* HEADER */
+ header, footer{
+    background-color: #f44336;
+ }
+
+ div.bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .logo{
+    width: 10em;
+    text-align: left;
+    margin-left: -20px;
+ }
+
+ button#hamburger{
+    margin: 50% 5px;
+    font-size: 1.5em;
+    background-color: #FFC107;
+    color: #000;
+    border: 1px solid rgba(0,0,0,1);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+ }
+
+
+ div.sm{
+    display: flex;
+    margin-left: 2em;
+ }
+
+ div.sm a:nth-child(3){
+    display: none;
+ }
+
+ div.sm img{
+    width: 40px;
+ }
+
+time{
+    font-family: Kalam, Montserrat, Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 0.2em;
+    padding: 0.1em;
+    border: 1px solid #FFC107;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+ }
+div nav{
+        background-color:  #FFC482;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+div.headcont{
+    display: none;
+}
+    
+nav a{
+        font-family: Montserrat, Arial, Helvetica, sans-serif;
+        color: rgba(0,0,0,0.6);
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 1em;
+        font-family: Kalam, Montserrat, sans-serif;
+    }
+    
+.navigation {
+   display: none;
+   }
+   
+
+.navigation ul{
+    padding: 0;
+    margin: 0;
+}
+.navigation li{
+    list-style-type: none;
+    padding: 1em;
+    flex: 1 1 auto;
+    border: 1px solid rgba(0,0,0, 0.2);
+    margin: 0.5em;
+    background-color: rgba(0,0,0, 0.2);
+    border-radius: 5px;
+}
+
+.navigation li:hover{
+   background-color: #4caf4f48;
+   color:#000;
+}
+
+.navigation.responsive {
+   display: flex;
+}
+
+
+ /* MAIN*/
+
+ div#hero-cont{
+   position: relative;
+   display: block;
+   background-color: #ffffff;
+ }
+
+h2.first, .second{
+    position: absolute;
+    color: #000;
+    font-weight: 900;
+    font-size: 5vw;
+    font-family: Montserrat, sans-serif;
+    text-shadow: 1px 1px #ffffff;
+ }
+
+ .first{
+   top: 5%;
+   left: 5%;
+ }
+
+ .second{
+   top: 20%;
+   left: 30%;
+ }
+
+ button#cta{
+   display: block;
+   position: absolute;
+   bottom: 10%;
+   right: 10%;
+   padding: 10px;
+   background-color: #ff9900ab;
+   border-radius: 15px;
+   font-family: Kalam, Montserrat, sans-serif;
+   font-size: calc(10px + 1vw);
+ }
+
+ button#hamburger:hover, button#cta:hover{
+   background-color: #4caf4f;
+   color:rgba(0,0,0,0.8);
+ }
+
+ div#hero-cont img{
+   width: 100%;
+    opacity: 0.4;
+    margin: 0;
+ }
+
+div.weather{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+div.principal-weather{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+div.weather > img{
+   border: 1px solid #999;
+   border-radius: 20px;
+   background-color: rgba(0,0,0,0.1);
+   box-shadow: 10px 5px 25px rgba(0,0,0, 0.5); 
+}
+div.weather > p, span{
+   font-family: Kalam, Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+   font-size: 1.2em;
+}
+
+span#temperature, span#weather-description{
+   font-size: 1.8em;
+}
+
+span#temperature{
+   border: 1px solid rgba(0,0,0,0.6);
+   border-radius: 5px;
+   padding: 0 1em;
+   background-color: rgba(0,0,0,0.2);
+}
+ div.forecast{
+   display: flex;
+   justify-content: space-between;
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+ }
+
+ div.forecast p{
+   padding: 0;
+   margin: 0.5em;
+ }
+
+ div.forecast section{
+   border: 1px solid rgba(0,0,0, 0.5);
+   padding: 0 1em;
+   border-radius: 5px;
+   background-color: rgba(0,0,0,0.2);
+   padding: 0.2em;
+   flex: 1 1 auto;
+   margin: 0.2em;
+ }
+
+ div.weather p.credit{
+   font-size: 1em;
+   margin: 0.5em auto;
+ }
+
+ div#coastal p{
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+ }
+
+ div.specialty h2{
+   border: 1px solid #999;
+   margin: 1em;
+   background-color: #f443367e;
+   border-radius: 5px;
+   padding: 0.5em
+ }
+
+  /* FRESH PAGE*/
+
+  form{
+   width: 80%;
+   font-family: Kalam, sans-serif;
+   margin: 0 3%;
+   max-width: 1100px;
+}
+
+form fieldset{
+   display: block;
+   margin: auto;
+   font-family: Kalam, sans-serif;
+   text-align: left;
+   font-size: 1em;
+   border: 2px solid #4caf4f;
+   border-radius: 10px;
+   margin-bottom: 2em;
+   width: 100%;
+}
+
+form legend{
+   font-size: 1.8em;
+   margin: 0 auto;
+}
+
+  form label.personal-info, form label.additional, form label.juice{
+   display: block;
+   padding: 0.6em;
+   font-size: 1.2em;
+   color:rgba(0,0,0, 0.7);
+}
+
+form fieldset select{
+   display: block;
+   min-height: 44px;
+   width: 90%;
+   margin: 1em;
+   border-radius: 10px;
+   max-width: 25em;
+}
+
+fieldset label.personal-info input{
+   display: block;
+   min-height: 44px;
+   width: 90%;
+   max-width: 25em;
+   border-radius: 10px;
+}
+
+form label.personal-info input:required{
+   border-left: #f44336 solid 6px;
+}
+
+form label.information input:required:valid{
+   border-left: #4caf4f solid 6px;
+}
+
+textarea#instructions{
+   width: 90%;
+   min-height: 88px;
+   border-radius: 10px;
+}
+
+button#juiceBtn{
+   display: block;
+   margin: 1em auto;
+   padding: 10px;
+   background-color: #ff9900ab;
+   border-radius: 15px;
+   font-family: Kalam, Montserrat, sans-serif;
+   font-size: calc(10px + 1vw);
+ }
+
+ div.submitted{
+   text-align: left;
+   margin: 1em;
+   max-width: 90%;
+   font-size: 1.2em;
+   border: 1px solid #4caf4f;
+   background-color: #4caf4f5b;
+   border-radius: 20px;
+   padding: 1em;
+ }
+
+ div.submitted h3{
+   font-family: Kalam, Arial, Helvetica, sans-serif;
+ }
+
+ div.submitted p{
+   font-family: Montserrat, sans-serif;
+ }
+
+ div.nutritions{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   column-gap: 1em;
+ }
+
+ div.nutritions p{
+   border: 1px solid rgba(0, 0, 0, 0.5);
+   padding: 0.5em;
+   margin: 0.5em;
+   border-radius: 5px;
+   background-color: rgba(0,0,0, 0.2);
+ }
+
+ #info{
+   max-width: 90%;
+   margin: 0 auto;
+ }
+
+ #info h1, h3{
+   font-family: Kalam, sans-serif;
+ }
+
+ #info p{
+   margin: 1em;
+   font-family: Montserrat, Arial, Helvetica, sans-serif;
+ }
+
+ div.contact{
+   background-color: rgba(0,0,0, 0.3);
+   width: 90%;
+   margin: 0 auto;
+   border: 1px solid #4caf4f;
+   border-radius: 5px;
+ }
+
+ div.contact h3{
+   margin: 0.5em;
+ }
+
+ iframe{
+   max-width: 90%;
+ }
+
+ /* FOOTER */
+footer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+ footer img{
+   height: 80%;
+ }
+ footer p, footer span{
+   font-family: Kalam, Montserrat, sans-serif;
+   margin: 0.2em;
+   color: #ffffff;
+   font-size: 1em;
+ }

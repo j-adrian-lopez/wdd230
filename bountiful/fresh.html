@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your own fresh juice with Bountiful Foods">
+    <title>Bountiful Foods - Fresh</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"> 
+</head>
+<body>
+    <header>
+    <div class="bar">
+        <div class="logo-cont">
+            <a href="index.html"><img src="images/bountiful.webp" alt="Bountiful Foods Logo" width="400" class="logo"></a>
+        </div>
+        <div class="headcont">
+            <h1>Bountiful Foods</h1>
+            <h3>Fresh fruit from the fields to your table</h3>
+        </div>
+        <div>
+            <button id="hamburger">&#9776;</button>
+        </div>
+        <div class="sm">
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo" width="50"></a>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo" width="50"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter Logo" width="50"></a>          
+        </div>
+    </div>
+    <time></time>
+        <div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="info.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+ </header>
+
+ <main id="fresh">
+
+    <form>
+        <fieldset>
+            <legend>Create Your Own Juice!</legend>
+            <label class="personal-info">First Name* <input type="text" name="fname" id="fname" required></label>
+            <label class="personal-info">Email* <input type="email" name="email" placeholder="someone@domain.com" id="email" required></label>
+            <label class="personal-info">Phone Number* <input type="tel" name="tel" placeholder="0971123456" id="phone" required></label>
+            <label class="juice">Choose three fruits for your juice:</label>
+            <select id="fruits1">
+                <option value="">---</option>
+            </select>
+            <select id="fruits2">
+                <option value="">---</option>
+            </select>
+            <select id="fruits3">
+                <option value="">---</option>
+            </select>
+            <label class="additional">Special Instructions<textarea name="instructions" id="instructions"></textarea></label>
+        </fieldset>
+        </form>
+        <button id="juiceBtn">Get Your Juice!</button>
+        <div id="list"></div>
+ </main>
+
+ <footer>
+    <img src="images/bountiful.webp" alt="Bountiful Foods Logo" width="100" class="foot_logo">
+    <p>Contact: bountiful@bountifulfoods.com<br>
+    +1 800 123 4567</p>
+    <div>
+        <p>&copy;<span id="year"></span> .:|:. Adrian Lopez .:|:. Paraguay</p>
+     <br>
+        <span id="lastUpdated"></span>
+    </div> 
+</footer>
+<script src="scripts/general.js" rel="script"></script>
+<script src="scripts/fresh.js" rel="script"></script>
+</body>
+</html>

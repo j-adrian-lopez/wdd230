@@ -1,0 +1,122 @@
+@media only screen and (min-width: 37.5em) {
+    #hamburger{
+        display: none;
+    }
+
+    img.logo{
+        width: 13em;
+    }
+
+    div.headcont{
+        display: block;
+        font-family: Kalam, Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 1em;
+    }
+
+    div.headcont h1{
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    div.headcont h3{
+        margin: 0;
+    }
+
+    div.sm a:nth-child(3){
+        display: block;
+     }
+
+    .navigation.responsive {
+        display: flex;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .navigation ul{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navigation li{
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .navigation li a{
+        display: flex;
+        flex: 1 1 100%;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .first{
+        top: 5%;
+        left: 40%;
+      }
+     
+      .second{
+        top: 20%;
+        left: 40%;
+      }
+
+    button#cta{
+        right: 40%;
+    }
+
+    div.weather{
+        border-right: 1px solid #000;
+    }
+
+    div.segment{
+        display: grid;
+        grid-template-columns: 65% 35%;
+    }
+
+    div.principal-weather{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 70% 30%;
+        margin: 1em;
+    }
+
+    img#weather-icon{
+        margin: auto;
+    }
+
+    span#weather-description{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    div.principal-weather p{
+        margin: 0;
+    }
+
+    div.forecast{
+        width: 80%;
+    }
+    
+    div#coastal{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 2em;
+        margin: auto;
+    }
+
+    footer img{
+        width: 13em;
+    }
+    
+    footer p, footer span{
+        font-size: 1.2em;
+    }
+
+}

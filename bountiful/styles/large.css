@@ -1,0 +1,67 @@
+@media only screen and (min-width: 80em) {
+
+    img.logo{
+        width: 20em;
+    }
+
+    div.headcont{
+        display: block;
+        font-family: Kalam, Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 1.5em;
+    }
+
+    time{
+        font-size: 1.2em;
+    }
+
+    #home{
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        gap: 1em;
+        margin-top: 1em;
+    }
+
+    div#hero-cont{
+        grid-column: 2/3;
+    }
+
+    div#hero-cont img {
+    height: 100%;
+    }
+
+    h2.first, h2.second{
+        font-size: 3vw;
+        left: 50px;
+    }
+
+    button#cta{
+        left: 20%;
+    }
+
+    div.weather{
+        border-right: none;
+        display: block;
+    }
+
+    div.forecast{
+        margin: 0 auto;
+    }
+
+    div.forecast section:nth-child(3){
+        min-width: 35%;
+    }
+
+    div.segment{
+        display: block;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    div.specialty{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        margin: auto;
+    }
+
+}

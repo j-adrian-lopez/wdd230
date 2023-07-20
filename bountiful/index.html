@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods - Fruits and Nutrition">
+    <title>Bountiful Foods - Home</title>
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"> 
+</head>
+<body>
+    <header>
+    <div class="bar">
+        <div class="logo-cont">
+            <a href="index.html"><img src="images/bountiful.webp" alt="Bountiful Foods Logo" width="400" class="logo"></a>
+        </div>
+        <div class="headcont">
+            <h1>Bountiful Foods</h1>
+            <h3>Fresh fruit from the fields to your table</h3>
+        </div>
+        <div>
+            <button id="hamburger">&#9776;</button>
+        </div>
+        <div class="sm">
+            <a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo" width="50"></a>
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo" width="50"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter Logo" width="50"></a>          
+        </div>
+    </div>
+    <time></time>
+        <div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="info.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+ </header>
+
+<main id="home">
+    <div id="hero-cont">
+        <picture>
+        <source media="(max-width: 400px)" srcset="images/hero400.jpg">
+        <source media="(max-width: 800px)" srcset="images/hero800.jpg">
+        <img src="images/hero.webp" width="600" loading="lazy" alt="A background of juices and fresh fruit">
+    </picture>
+        <h2 class="first">Juices made your way</h2>
+        <h2 class="second">to make your day</h2>
+        <button id="cta">Create your own!</button>
+    </div>
+    <hr>
+    <div class="segment">
+        <div class="weather">
+            <h2>Weather</h2>
+            <div class="principal-weather">
+                <img src="" alt="" id="weather-icon" width="80">
+                <span id="weather-description"></span>
+                <span id="temperature"></span>
+                <p>Humidity: <span id="humidity"></span></p>
+            </div>
+            <div class="forecast">
+            </div>
+            <p class="credit">Provided by <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
+        </div>
+        <hr>
+        <div id="coastal">
+            <h2>Coastal Info</h2>
+            <p>Some of the most beautiful beaches in California are located
+                on the coasts of Carlsbad. Whether you choose them to surf, 
+                picnicking or sunbathing, Carlsbad coast is one of the best 
+                in America, and even one of the best in the world!
+            </p>
+        </div>
+    </div>
+    <div class="specialty">
+        <h2>Specialty Drinks Submitted: <span id="drinks"></span></h2>
+    </div>
+    <hr>
+</main>
+
+
+<footer>
+    <img src="images/bountiful.webp" alt="Bountiful Foods Logo" width="100" class="foot_logo">
+    <p>Contact: bountiful@bountifulfoods.com<br>
+    +1 800 123 4567</p>
+    <div>
+        <p>&copy;<span id="year"></span> .:|:. Adrian Lopez .:|:. Paraguay</p>
+     <br>
+        <span id="lastUpdated"></span>
+    </div> 
+</footer>
+<script src="scripts/general.js" rel="script"></script>
+<script src="scripts/bountiful.js" rel="script"></script>
+</body>
+</html>
