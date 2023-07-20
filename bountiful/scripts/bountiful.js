@@ -125,7 +125,7 @@ if (!window.localStorage.getItem("submitted")) {
 drinks.textContent = window.localStorage.getItem("submitted");
 
 ctaBtn.addEventListener('click', () => {
-	window.open('fresh.html');
+	window.open('https://j-adrian-lopez.github.io/wdd230/bountiful/fresh.html');
 })
 
  apiFetch(url);
